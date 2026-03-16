@@ -1,0 +1,15 @@
+.countries {
+    /* border: 1px solid gold; */
+    padding: 15px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box {
+    border: 1px solid gold;
+    padding: 10px;
+    border-radius: 20px;
+}
+.visited {
+    background-color: greenyellow;
+}

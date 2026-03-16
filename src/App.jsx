@@ -10,7 +10,6 @@ const App = () => {
       <Suspense fallback={<p>Loading...</p>}>
       <Countries countriesPromise={countriesPromise}/>
       </Suspense>
-      <h1></h1>
     </div>
   )
 }
